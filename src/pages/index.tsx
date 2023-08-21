@@ -1,4 +1,6 @@
 import MuiButton from "./button"
+import MuiButtonGroup from "./button-group"
+import MuiButtonToggle from "./button-toggle"
 import MuiTypography from "./typography"
 
 export default function App() {
@@ -6,6 +8,8 @@ export default function App() {
     <>
       <MuiTypography />
       <MuiButton />
+      <MuiButtonGroup />
+      <MuiButtonToggle />
     </>
   )
 }
