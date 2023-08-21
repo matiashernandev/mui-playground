@@ -5,8 +5,8 @@ const MuiSelect = () => {
   const [country, setCountry] = useState("")
   const [countries, setCountries] = useState<string[]>([])
 
-  console.log({ country })
-  console.log({ countries })
+  // console.log({ country })
+  // console.log({ countries })
 
   const handleChange = (event: ChangeEvent<HTMLInputElement>) => {
     setCountry(event.target.value as string)
